@@ -25,5 +25,4 @@ A Chrome extension that automatically detects the track playing on **Spotify Web
 - It uses SoundCloud's internal `api-v2` endpoints, so rate limits or changes can happen under heavy requests.
 - This code is written purely for fun; any breakage or rate limits on your side are on you.
 - I haven't hit a rate limit or breakage while testing it :-)
-
 ![Demo](./assets/demo.gif)

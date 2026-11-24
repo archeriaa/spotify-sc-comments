@@ -25,5 +25,4 @@
 - SoundCloud'un dahili `api-v2` uç noktaları kullanılıyor, yoğun istekte hız sınırı veya değişiklik yaşanabilir.
 - Bu kod tamamen eğlence amacıyla yazılmıştır; sitenizde herhangi bir bozulma veya rate-limit durumu sizin sorumluluğunuzdadır
 - Test ederken hiç rate-limit'e takılmadım sitemde bozulmadı :-)
-
 ![Demo](./assets/demo.gif)
