@@ -100,6 +100,7 @@ chrome.webRequest.onBeforeRequest.addListener(
                 await chrome.storage.local.set({
                     sc_client_id: clientID
                 })
+                console.log("client id ok")
             }
             else {
                 console.log("client id yok")
