@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "SoundCloud Test",
+  "version": "1.0",
+  "permissions": ["webRequest", "notifications", "storage"],
+  "host_permissions": ["*://*.soundcloud.com/*", "https://*.spotify.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.spotify.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
